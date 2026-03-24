@@ -46,11 +46,11 @@ Step 3: (5,1)
 
 ## 🔗 Live Demo
 
-(pegá acá el link de GitHub Pages después)
+👉 [View the app](https://devcodemate.github.io/route-optimizer-basic/)
 
 ## 📁 Repository
 
-(pegá acá el link de tu repo)
+https://github.com/devCODEMATE/route-optimizer-basic
 
 ## 💡 Future Improvements
 

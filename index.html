@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Route Optimizer Basic</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Route Optimizer Basic</h1>
+    <p class="subtitle">
+      Mini web app inspired by AI Problem-Solving concepts.
+    </p>
+
+    <section class="card">
+      <label for="pointsInput">Enter one point per line in the format x,y</label>
+      <textarea id="pointsInput" placeholder="0,0&#10;2,3&#10;5,1&#10;1,4"></textarea>
+
+      <div class="buttons">
+        <button id="optimizeBtn">Optimize Route</button>
+        <button id="clearBtn" class="secondary">Clear</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Problem Definition</h2>
+      <ul>
+        <li><strong>Initial state:</strong> the first point in the list</li>
+        <li><strong>Goal:</strong> visit all points in an efficient order</li>
+        <li><strong>Approach:</strong> nearest neighbor search</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Optimized Route</h2>
+      <div id="result" class="result">
+        Your optimized route will appear here.
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -3,10 +3,10 @@
 ## 📸 App Preview
 
 ### Initial State
-![App Empty](app-empty.png)
+![App Empty](app-result.png)
 
 ### Optimized Result
-![App Result](app-result.png)
+![App Result](app-empty.png)
 
 A simple web app built with HTML, CSS and JavaScript to simulate a basic AI problem-solving scenario.
 

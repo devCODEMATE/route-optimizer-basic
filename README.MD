@@ -1,5 +1,13 @@
 # Route Optimizer Basic
 
+## 📸 App Preview
+
+### Initial State
+![App Empty](app-empty.png)
+
+### Optimized Result
+![App Result](app-result.png)
+
 A simple web app built with HTML, CSS and JavaScript to simulate a basic AI problem-solving scenario.
 
 ## 🧠 Project Overview
@@ -28,6 +36,11 @@ The user enters coordinate points (x,y), and the app calculates a route using a 
 - JavaScript
 
 ## 📦 Example Input
+
+0,0
+2,3
+5,1
+1,4
 
 
 ## 📊 Example Output
